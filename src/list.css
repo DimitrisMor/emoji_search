@@ -1,0 +1,26 @@
+.list{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.ele{
+    background-color: rgb(255, 163, 127);
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.ele:hover{
+    background-color: rgb(253, 186, 160);
+}
+
+#icon{
+    font-size: 30px;
+    margin-right: 10px;
+}
+
+#iconName{
+    font-size: 20px;
+}

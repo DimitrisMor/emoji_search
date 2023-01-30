@@ -12,17 +12,14 @@ const List=({term})=> {
         let name=emoji.name;
         let category=emoji.category;
         let group=emoji.group;
-        if(name.match(term)){
-    
-        return <Element char={char} alt={name} code={codes}/>
-    }    
-    
+        if(name.match(term)){    
+          return <Element char={char} alt={name} code={codes}/>
+        }    
   })
   
   return (
     <div>
       <ul className='list'>
-        {term}
         {emojis}
       </ul>
     </div>

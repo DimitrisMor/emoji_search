@@ -1,8 +1,11 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import '../list.css';
 
 const Element=({char, alt, code})=> {
+
+
   const[copied, setCopied]=useState('');
+
   return (
     <div>
         <li className='ele' key={code} onClick={()=>setCopied(char)}>
